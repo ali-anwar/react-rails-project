@@ -1,0 +1,49 @@
+exports[`HeaderNavContainer.test.js renders without crashing 1`] = `
+<nav
+  className="navbar navbar-toggleable-sm bg-info navbar-inverse">
+  <div
+    className="container">
+    <button
+      className="navbar-toggler"
+      data-target="#mainNav"
+      data-toggle="collapse">
+      <span
+        className="navbar-toggler-icon" />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="mainNav">
+      <div
+        className="navbar-nav mr-auto">
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="navbar-brand"
+          exact={true}
+          to="/">
+          Home
+        </NavLink>
+        <span
+          className="ml-5" />
+      </div>
+      <div
+        className="form-inline navbar-nav">
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="nav-item nav-link"
+          to="/login">
+          Sign In
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="nav-item nav-link"
+          to="/signup">
+          Sign Up
+        </NavLink>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

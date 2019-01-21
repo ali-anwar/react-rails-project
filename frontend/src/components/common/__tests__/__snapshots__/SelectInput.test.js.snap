@@ -1,0 +1,23 @@
+exports[`SelectInput.test.js renders as expected 1`] = `
+<div
+  className="form-group d-flex form-field row">
+  <div
+    className="col-sm-2 align-self-end"
+    htmlFor="category">
+    Category
+  </div>
+  <div
+    className="col-sm-10">
+    <select
+      autoFocus={true}
+      className="form-control"
+      name="category">
+      <option />
+      <option
+        value="Josh">
+        Bloch
+      </option>
+    </select>
+  </div>
+</div>
+`;

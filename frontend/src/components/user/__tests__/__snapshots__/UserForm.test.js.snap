@@ -1,0 +1,55 @@
+exports[`UserForm.test.js renders without crashing 1`] = `
+<form>
+  <div
+    className="mt-4 mb-4">
+    <h1>
+      Add
+    </h1>
+  </div>
+  <Field
+    component={[Function]}
+    label="Name"
+    name="name"
+    type="text" />
+  <Field
+    component={[Function]}
+    label="Email"
+    name="email"
+    type="email" />
+  <Field
+    component={[Function]}
+    label="Role"
+    name="role"
+    options={
+      Array [
+        Object {
+          "text": "Regular",
+          "value": "regular",
+        },
+        Object {
+          "text": "Manager",
+          "value": "manager",
+        },
+        Object {
+          "text": "Admin",
+          "value": "admin",
+        },
+      ]
+    }
+    removeDefault={true} />
+  <div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit">
+      Add User
+    </button>
+    <button
+      className="btn btn-gray pull-right"
+      onClick={[Function]}
+      type="button">
+      Cancel
+    </button>
+  </div>
+</form>
+`;

@@ -1,0 +1,237 @@
+exports[`MealList.test.js renders without crashing 1`] = `
+<BootstrapTable
+  bodyContainerClass={null}
+  bordered={false}
+  cellEdit={
+    Object {
+      "afterSaveCell": undefined,
+      "beforeSaveCell": undefined,
+      "blurToSave": false,
+      "mode": "none",
+      "nonEditableRows": undefined,
+    }
+  }
+  className="custom-table"
+  columnFilter={false}
+  condensed={true}
+  containerClass={null}
+  csvFileName="spreadsheet.csv"
+  data={
+    Array [
+      Object {
+        "calories": 100,
+        "description": "Very Tasty",
+        "id": "react-flux-building-applications",
+        "title": "Building Applications in React and Flux",
+      },
+    ]
+  }
+  deleteRow={false}
+  expandColumnOptions={
+    Object {
+      "expandColumnBeforeSelectColumn": true,
+      "expandColumnComponent": undefined,
+      "expandColumnVisible": false,
+    }
+  }
+  exportCSV={false}
+  fetchInfo={
+    Object {
+      "dataTotalSize": 0,
+    }
+  }
+  headerContainerClass={null}
+  height="100%"
+  hover={true}
+  ignoreSinglePage={false}
+  insertRow={false}
+  keyBoardNav={false}
+  multiColumnSearch={false}
+  multiColumnSort={1}
+  options={
+    Object {
+      "noDataText": "No data",
+      "sortIndicator": true,
+    }
+  }
+  pagination={false}
+  printable={false}
+  replace={false}
+  search={false}
+  selectRow={
+    Object {
+      "clickToSelect": true,
+      "hideSelectColumn": true,
+      "mode": "radio",
+      "onSelect": [Function],
+    }
+  }
+  striped={true}
+  tableBodyClass={null}
+  tableContainerClass={null}
+  tableHeaderClass={null}
+  trClassName=""
+  trStyle={[Function]}
+  withoutTabIndex={false}>
+  <TableHeaderColumn
+    className=""
+    columnClassName=""
+    columnTitle={false}
+    dataAlign="left"
+    dataField="id"
+    dataSort={false}
+    defaultASC={false}
+    editColumnClassName=""
+    editable={true}
+    expandable={true}
+    filterFormatted={false}
+    headerTitle={true}
+    hidden={true}
+    hiddenOnInsert={false}
+    invalidEditColumnClassName=""
+    isKey={true}
+    keyValidator={false}
+    searchable={true}
+    sortIndicator={true}
+    width={null}>
+    Id
+  </TableHeaderColumn>
+  <TableHeaderColumn
+    caretRender={[Function]}
+    className=""
+    columnClassName=""
+    columnTitle={true}
+    dataAlign="left"
+    dataField="text"
+    dataSort={true}
+    defaultASC={false}
+    editColumnClassName=""
+    editable={true}
+    expandable={true}
+    filterFormatted={false}
+    headerTitle={true}
+    hidden={false}
+    hiddenOnInsert={false}
+    invalidEditColumnClassName=""
+    isKey={false}
+    keyValidator={false}
+    searchable={true}
+    sortIndicator={true}
+    width={null}>
+    Text
+  </TableHeaderColumn>
+  <TableHeaderColumn
+    caretRender={[Function]}
+    className=""
+    columnClassName=""
+    columnTitle={true}
+    dataAlign="left"
+    dataField="no_of_calories"
+    dataSort={true}
+    defaultASC={false}
+    editColumnClassName=""
+    editable={true}
+    expandable={true}
+    filterFormatted={false}
+    headerTitle={true}
+    hidden={false}
+    hiddenOnInsert={false}
+    invalidEditColumnClassName=""
+    isKey={false}
+    keyValidator={false}
+    searchable={true}
+    sortIndicator={true}
+    width={null}>
+    Calories
+  </TableHeaderColumn>
+  <TableHeaderColumn
+    caretRender={[Function]}
+    className=""
+    columnClassName=""
+    columnTitle={true}
+    dataAlign="left"
+    dataField="date"
+    dataSort={true}
+    defaultASC={false}
+    editColumnClassName=""
+    editable={true}
+    expandable={true}
+    filterFormatted={false}
+    headerTitle={true}
+    hidden={false}
+    hiddenOnInsert={false}
+    invalidEditColumnClassName=""
+    isKey={false}
+    keyValidator={false}
+    searchable={true}
+    sortIndicator={true}
+    width={null}>
+    Date
+  </TableHeaderColumn>
+  <TableHeaderColumn
+    caretRender={[Function]}
+    className=""
+    columnClassName=""
+    columnTitle={true}
+    dataAlign="left"
+    dataField="time"
+    dataFormat={[Function]}
+    dataSort={true}
+    defaultASC={false}
+    editColumnClassName=""
+    editable={true}
+    expandable={true}
+    filterFormatted={false}
+    headerTitle={true}
+    hidden={false}
+    hiddenOnInsert={false}
+    invalidEditColumnClassName=""
+    isKey={false}
+    keyValidator={false}
+    searchable={true}
+    sortIndicator={true}
+    width={null}>
+    Time
+  </TableHeaderColumn>
+  <TableHeaderColumn
+    className=""
+    columnClassName=""
+    columnTitle={false}
+    dataAlign="left"
+    dataField="button"
+    dataFormat={[Function]}
+    dataSort={false}
+    defaultASC={false}
+    editColumnClassName=""
+    editable={true}
+    expandable={true}
+    filterFormatted={false}
+    formatExtraData={
+      Object {
+        "handleDeleteButton": [Function],
+        "handleEditButton": [Function],
+        "handleRowSelect": [Function],
+        "isCurrentAdminUser": false,
+        "meals": Array [
+          Object {
+            "calories": 100,
+            "description": "Very Tasty",
+            "id": "react-flux-building-applications",
+            "title": "Building Applications in React and Flux",
+          },
+        ],
+      }
+    }
+    headerTitle={true}
+    hidden={false}
+    hiddenOnInsert={false}
+    invalidEditColumnClassName=""
+    isKey={false}
+    keyValidator={false}
+    searchable={true}
+    sortIndicator={true}
+    width={null}>
+    Actions
+  </TableHeaderColumn>
+</BootstrapTable>
+`;

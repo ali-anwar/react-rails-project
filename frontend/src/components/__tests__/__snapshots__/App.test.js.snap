@@ -1,0 +1,66 @@
+exports[`App.test.js renders as expected 1`] = `
+<div>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }>
+    <div>
+      <Connect(HeaderNavContainer)
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        } />
+      <Switch>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/" />
+        <Route
+          path="/login"
+          render={[Function]} />
+        <Route
+          path="/signup"
+          render={[Function]} />
+        <Redirect
+          push={false}
+          to="/" />
+        <Route
+          component={[Function]} />
+      </Switch>
+    </div>
+  </Router>
+</div>
+`;

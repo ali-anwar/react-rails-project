@@ -1,0 +1,18 @@
+exports[`PageNotFound.test.js renders as expected 1`] = `
+<div
+  className="jumbotron page-404">
+  <div
+    className="heading">
+    404
+  </div>
+  <div
+    className="lead">
+    The Page you Requested Could Not Found
+  </div>
+  <div
+    className="access-link">
+    No match for the link 
+    <code />
+  </div>
+</div>
+`;

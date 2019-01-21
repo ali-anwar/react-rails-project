@@ -1,0 +1,56 @@
+exports[`UserListContainer.test.js renders without crashing 1`] = `
+<div
+  className="container">
+  <div
+    className="row">
+    <div
+      className="col">
+      <div
+        className="mt-4 mb-4">
+        <h1>
+          Users
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row mb-4">
+    <div
+      className="col">
+      <div
+        className="btn-group"
+        role="group">
+        <button
+          className="btn btn-primary"
+          onClick={[Function]}
+          type="button">
+          <i
+            aria-hidden="true"
+            className="fa fa-plus" />
+           New
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row">
+    <div
+      className="col">
+      <UserList
+        handleDeleteButton={[Function]}
+        handleEditButton={[Function]}
+        handleRowSelect={[Function]}
+        users={
+          Array [
+            Object {
+              "calories": 100,
+              "description": "Very Tasty",
+              "id": "react-flux-building-applications",
+              "title": "Building Applications in React and Flux",
+            },
+          ]
+        } />
+    </div>
+  </div>
+</div>
+`;

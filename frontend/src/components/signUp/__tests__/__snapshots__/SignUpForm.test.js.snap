@@ -1,0 +1,38 @@
+exports[`SignUpForm.test.js renders without crashing 1`] = `
+<form>
+  <div
+    className="mt-4 mb-4">
+    <h1>
+      Add
+    </h1>
+  </div>
+  <Field
+    component={[Function]}
+    label="Name"
+    name="name"
+    type="text" />
+  <Field
+    component={[Function]}
+    label="Email"
+    name="email"
+    type="email" />
+  <Field
+    component={[Function]}
+    label="Password"
+    name="password"
+    type="password" />
+  <Field
+    component={[Function]}
+    label="Password Confirmation"
+    name="confirmpassword"
+    type="password" />
+  <div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit">
+      Sign Up
+    </button>
+  </div>
+</form>
+`;

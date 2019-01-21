@@ -1,0 +1,43 @@
+exports[`MealForm.test.js renders without crashing 1`] = `
+<form>
+  <div
+    className="mt-4 mb-4">
+    <h1>
+      Add
+    </h1>
+  </div>
+  <Field
+    component={[Function]}
+    label="Text"
+    name="text"
+    type="text" />
+  <Field
+    component={[Function]}
+    label="Calories"
+    name="no_of_calories"
+    type="number" />
+  <Field
+    component={[Function]}
+    label="Date"
+    name="date" />
+  <Field
+    component={[Function]}
+    label="Time"
+    name="time"
+    type="time" />
+  <div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit">
+      Add Meal
+    </button>
+    <button
+      className="btn btn-gray pull-right"
+      onClick={[Function]}
+      type="button">
+      Cancel
+    </button>
+  </div>
+</form>
+`;

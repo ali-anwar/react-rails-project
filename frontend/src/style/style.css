@@ -1,0 +1,114 @@
+:focus {
+  outline: 0;
+}
+
+.btn-space {
+  margin-left: 20px;
+}
+
+.link-colors {
+  color: #5bc0de !important;
+}
+
+.dropdown-toggle {
+  color: white !important;
+}
+
+.dropdown-toggle:hover {
+  color: white !important;
+}
+
+.btn-gray {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-gray:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.form-inline.navbar-nav .nav-item {
+  color: white !important;
+}
+
+.navbar-nav.mr-auto .nav-item {
+  color: white !important;
+}
+
+.form-field {
+  position: relative;
+}
+
+.form-field .text-danger {
+  position: absolute;
+  font-size: 12px;
+}
+
+.form-group.form-field {
+  margin-bottom: 25px;
+}
+
+.custom-table .react-bs-table table td {
+  overflow: visible;
+  white-space: normal;
+  word-break: break-all;
+  text-overflow: unset;
+  vertical-align: middle;
+}
+
+.navbar-nav.mr-auto .nav-item {
+  padding-left: 0px;
+}
+
+.page-404 {
+  height: 100vh;
+  margin: 0px;
+}
+
+.page-404 .heading {
+  font-size: 15vw;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  color: #5bc0de;
+}
+
+.page-404 .lead {
+  text-transform: uppercase;
+}
+
+.page-404 .lead,
+.page-404 .access-link {
+  text-align: center;
+}
+
+.clear-btn {
+  padding: 10px 15px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #31b0d5;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #3fb5d8;
+  border-color: #31b0d5;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 2px rgba(63,181,216,.5);
+}
+.loading-spinner svg {
+  margin: 0 auto;
+  display: block;
+  height: calc(100vh - 60px);
+}

@@ -1,0 +1,167 @@
+exports[`MealListContainer.test.js renders without crashing 1`] = `
+<div
+  className="container">
+  <div
+    className="row">
+    <div
+      className="col">
+      <div
+        className="mt-4 mb-4">
+        <h1>
+          Meals
+        </h1>
+      </div>
+      <div
+        className="row">
+        <div
+          className="col">
+          <form
+            className="form-inline">
+            <div
+              className="form-group">
+              <label
+                className="mr-sm-2 mb-2">
+                Start Date
+              </label>
+              <DatePicker
+                autoComplete="off"
+                className="form-control mb-2 mr-sm-2"
+                dateFormat="YYYY-MM-DD"
+                dateFormatCalendar="MMMM YYYY"
+                disabled={false}
+                disabledKeyboardNavigation={false}
+                dropdownMode="scroll"
+                id="filterStartDate"
+                monthsShown={1}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onMonthChange={[Function]}
+                popoverAttachment="top left"
+                popoverTargetAttachment="bottom left"
+                popoverTargetOffset="10px 0"
+                selected={null}
+                tetherConstraints={
+                  Array [
+                    Object {
+                      "attachment": "together",
+                      "to": "window",
+                    },
+                  ]
+                }
+                utcOffset={-0}
+                withPortal={false} />
+            </div>
+            <div
+              className="form-group">
+              <label
+                className="mr-sm-2 mb-2">
+                End Date
+              </label>
+              <DatePicker
+                autoComplete="off"
+                className="form-control mb-2 mr-sm-2"
+                dateFormat="YYYY-MM-DD"
+                dateFormatCalendar="MMMM YYYY"
+                disabled={false}
+                disabledKeyboardNavigation={false}
+                dropdownMode="scroll"
+                id="filterEndDate"
+                monthsShown={1}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onMonthChange={[Function]}
+                popoverAttachment="top left"
+                popoverTargetAttachment="bottom left"
+                popoverTargetOffset="10px 0"
+                selected={null}
+                tetherConstraints={
+                  Array [
+                    Object {
+                      "attachment": "together",
+                      "to": "window",
+                    },
+                  ]
+                }
+                utcOffset={-0}
+                withPortal={false} />
+            </div>
+            <div
+              className="form-group">
+              <label
+                className="mr-sm-2 mb-2">
+                Start Time
+              </label>
+              <input
+                className="form-control mb-2 mr-sm-2"
+                id="filterStartTime"
+                onChange={[Function]}
+                type="time" />
+            </div>
+            <div
+              className="form-group">
+              <label
+                className="mr-sm-2 mb-2">
+                End Time
+              </label>
+              <input
+                className="form-control mb-2 mr-sm-2"
+                id="filterEndTime"
+                onChange={[Function]}
+                type="time" />
+            </div>
+            <div
+              className="form-group">
+              <button
+                className="btn btn-primary mb-2 mr-sm-2"
+                id="filter"
+                type="submit">
+                Filter
+              </button>
+              <button
+                className="btn btn-gray mb-2 clear-btn"
+                id="reset"
+                onClick={[Function]}
+                type="reset">
+                Clear
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row mt-3 mb-3">
+    <div
+      className="col">
+      <div
+        className="btn-group"
+        role="group">
+        <button
+          className="btn btn-primary"
+          onClick={[Function]}
+          type="button">
+          <i
+            aria-hidden="true"
+            className="fa fa-plus" />
+           New
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row">
+    <div
+      className="col">
+      <MealList
+        handleDeleteButton={[Function]}
+        handleEditButton={[Function]}
+        handleRowSelect={[Function]}
+        isCurrentAdminUser={false}
+        meals={Array []} />
+    </div>
+  </div>
+</div>
+`;

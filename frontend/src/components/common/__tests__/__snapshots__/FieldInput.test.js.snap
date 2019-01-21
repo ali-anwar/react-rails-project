@@ -1,0 +1,18 @@
+exports[`FieldInput.test.js renders as expected 1`] = `
+<div
+  className="form-group d-flex form-field row">
+  <label
+    className="col-sm-2 align-self-end"
+    htmlFor="category">
+    Category
+  </label>
+  <div
+    className="col-sm-10">
+    <input
+      className="form-control"
+      name="Category"
+      placeholder="Category"
+      type="text" />
+  </div>
+</div>
+`;
